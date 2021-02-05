@@ -1,0 +1,44 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  background-color: #ffc30d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-list {
+
+}
+
+.navigation-item {
+  color: #ffffff;
+  display: inline;
+  margin: 0 2vw;
+  font-size: 14px;
+}
+
+.header {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
